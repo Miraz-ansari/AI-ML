@@ -1,10 +1,17 @@
 Explanation of the Code:
+
 read_docx(): Reads .docx files and extracts the text.
+
 preprocess_text(): Preprocesses the text by tokenizing, lemmatizing, and removing stopwords.
+
 vectorize_documents(): Converts the documents into TF-IDF vectors for clustering.
+
 cluster_documents(): Uses K-means to cluster the documents.
+
 remove_redundancy(): Removes redundant text based on cosine similarity between sentences.
+
 save_docx(): Saves the consolidated document as a .docx file.
+
 process_documents(): Manages the entire flow from reading documents, clustering them, removing redundancies, and saving the output.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
