@@ -1,3 +1,14 @@
+Explanation of the Code:
+read_docx(): Reads .docx files and extracts the text.
+preprocess_text(): Preprocesses the text by tokenizing, lemmatizing, and removing stopwords.
+vectorize_documents(): Converts the documents into TF-IDF vectors for clustering.
+cluster_documents(): Uses K-means to cluster the documents.
+remove_redundancy(): Removes redundant text based on cosine similarity between sentences.
+save_docx(): Saves the consolidated document as a .docx file.
+process_documents(): Manages the entire flow from reading documents, clustering them, removing redundancies, and saving the output.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1. Gather Input Files
 Task: Collect at least 50 .docx files containing information related to the technology and pharma industries. You can get articles, blogs, and other online documents.
 Tip: Use online tools or websites that allow you to download articles as .docx files. For example, you might convert web pages to .docx format using Python packages like requests and BeautifulSoup to scrape content, and python-docx to save them.
